@@ -59,7 +59,7 @@
         },
         "settings": {
           "MIDJOURNEY_PROXY_URL": " https://api.302.ai",
-          "MIDJOURNEY_PROXY_API_SECRET": "sk-1OEpTPKSExItmwmGyGn0F19XPt8Uy6aVrXZn8UPR7W6uUtwp"
+          "MIDJOURNEY_PROXY_API_SECRET": "sk-test-fixture-placeholder-not-a-real-key"
         },
         "customParams": null,
         "accessedAt": "2025-03-23T12:49:33.464Z",
@@ -580,7 +580,7 @@
           "prompts": "a small boy playing in a sunny park, wearing a red t-shirt and blue shorts, cheerful expression, surrounded by colorful flowers and green grass, warm sunlight filtering through the trees, vibrant and lively atmosphere --ar 16:9 --v 6",
           "settings": {
             "MIDJOURNEY_PROXY_URL": " https://api.302.ai",
-            "MIDJOURNEY_PROXY_API_SECRET": "sk-1OEpTPKSExItmwmGyGn0F19XPt8Uy6aVrXZn8UPR7W6uUtwp"
+            "MIDJOURNEY_PROXY_API_SECRET": "sk-test-fixture-placeholder-not-a-real-key"
           },
           "inLobeChat": true,
           "activeTaskId": "1742734217290387"

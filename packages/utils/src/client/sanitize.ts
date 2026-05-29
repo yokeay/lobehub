@@ -33,3 +33,16 @@ export const sanitizeSVGContent = (content: string): string => {
     USE_PROFILES: { svg: true, svgFilters: true },
   });
 };
+
+/**
+ * Sanitizes HTML content to prevent XSS attacks while preserving safe formatting tags
+ * @param content - The HTML content to sanitize
+ * @returns Sanitized HTML content safe for dangerouslySetInnerHTML
+ */
+export const sanitizeHTML = (content: string): string => {
+  return DOMPurify.sanitize(content, {
+    FORBID_ATTR: FORBID_EVENT_HANDLERS,
+    FORBID_TAGS: ['embed', 'form', 'iframe', 'link', 'object', 'script', 'style'],
+    USE_PROFILES: { html: true },
+  });
+};
